@@ -1,0 +1,755 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    /*-ms-overflow-style: none;*/
+    /*overflow: -moz-scrollbars-none;*/
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.parralex-class {
+    position: fixed;
+    height: 100%; width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    margin-top: 100px;
+}
+#p0.par {
+    /* The image used */
+    position: relative;
+    background-image: url('images/0i.png');
+    /* Full height */
+    height: 100%; width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+}
+#p1.par {
+    background-image: url('images/1i.png');
+}
+#p2.par {
+    background-image: url('images/2i.png');
+}
+#p3.par {
+    background-image: url('images/3i.png');
+}
+#p4.par {
+    background-image: url('images/4i.png');
+}
+#p5.par {
+    background-image: url('images/5i.png');
+}
+#p6.par {
+    background-image: url('images/6i.png');
+}
+#p7.par {
+    background-image: url('images/7i.png');
+}
+#p8.par {
+    background-image: url('images/8i.png');
+}
+
+#bla_repair.par {
+    /* The image used */
+    position: absolute;
+    top: 1000px;
+    /* Full height */
+    height: 700px; width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #30323d;
+    /*background-image: url(images/background7.jpg);*/
+}
+
+#bla.par {
+    /* The image used */
+    position: relative;
+    /* Full height */
+    height: 1900px; width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #30323d;
+    font-size:36px;
+    margin:0 auto;
+    color: darkorange;
+    margin-top: 100px;
+
+    overflow: hidden;
+    padding-bottom: -500px;
+}
+
+.background-img {
+    background-image: url(images/background6-9.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+
+#third-section{
+    background-image:
+    url(images/Amon%20amrth%20wallpaper.jpg);
+    position: fixed;
+}
+
+.hammer {
+    top: 900px;
+    position: fixed;
+    color: black;
+    height: 300px;
+    width: 450px;
+    font-size: 30px;
+    background-size: cover;
+    text-align: center;
+    opacity: 0;
+}
+
+.rightToCenter1 {
+    transform: rotate(-15deg);
+    background-image: url(images/Mjolnir.png);
+}
+
+.leftToCenter1 {
+    transform: rotate(15deg) scaleX(-1);
+    background-image: url(images/Mjolnir.png);
+}
+
+.bottomToCenter1 {
+    left: 460px;
+    margin: auto;
+    position: fixed;
+    height: 250px;
+    width: 1000px;
+    font-size: 30px;
+    background-image: url(images/header1.jpg);
+    border-radius: 2%;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.3;
+}
+
+.drop-menu {
+    top: 1230px;
+    height: 00px;
+    width: auto;
+    background-color: #30323d;
+    position: fixed;
+    left: 43.7%;
+
+}
+
+.drop-menu li {
+    border-top: 5px solid #878787;
+    border-bottom: 5px solid #878787;
+    border-left: 1px solid #878787;
+    border-right: 1px solid #878787;
+    margin: 100px 0px 0px 0px;
+    background-color: #6E6E6E;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 25px;
+    padding: 1px 20px 3px 20px;
+    color: darkorange;
+}
+
+
+.drop-menu li:hover:nth-child(1){
+    animation: button1 5s infinite;
+}
+.drop-menu li:hover:nth-child(2){
+    animation: button2 1.4s infinite;
+}
+.drop-menu li:hover:nth-child(3){
+    animation: button3 2s infinite;
+}
+
+
+
+@keyframes button1 {
+    0%   {background-color: #6E6E6E;opacity: 1;}
+    10%  {background-image: url(images/Skull1.png); opacity: 0.4; }
+    20%  {background-image: url(images/Skull1.png); opacity: 0.8; }
+    30%  {background-image: url(images/Skull1.png); opacity: 0.6;}
+    50%  {background-color: url(images/Skull1.png); opacity: 1;}
+    90%  {background-color: url(images/Skull1.png); opacity: 0.7;}
+    100% {background-color: #6E6E6E; opacity: 1;}
+}
+
+@keyframes button2 {
+    0%   {background-color: #6E6E6E;}
+    50%  {background-color: #454545;}
+    100% {background-color: #6E6E6E;}
+}
+
+@keyframes button3 {
+     0%   {transform: scale(1);}
+     25%  {transform: scale(0.90);}
+     50%  {transform: scale(1.1);}
+     75%  {transform: scale(0.98);}
+     100% {transform: scale(1);}
+}
+
+
+.thunder {
+    position: fixed;
+    background-size: cover;
+    opacity: 0;
+}
+.thunder2 {
+    height: 800px;
+    width: 1000px;
+    background-image: url(images/thunder2.png);
+}
+.thunder3 {
+    height: 750px;
+    width: 750px;
+    background-image: url(images/thunder3.png);
+}
+.thunder5 {
+    height: 1000px;
+    width: 1000px;
+    background-image: url(images/thunder5.png);
+}
+.thunder69 {
+    height: 500px;
+    width: 500px;
+    background-image: url(images/thunder69.png);
+}
+#thunderstorm1 {
+    left: -90px;
+    top: 850px;
+    transform: rotateY(180deg) rotate(60deg);
+}
+#thunderstorm2 {
+    left: -180px;
+    top: 1015px;
+    transform: rotate(-90deg);
+}
+#thunderstorm3 {
+    left: 300px;
+    top: 700px;
+    transform: rotate(20deg);
+}
+#thunderstorm4 {
+    left: 700px;
+    height: 500px;
+    width: 700px;
+    top: 1000px;
+    transform: rotateY(180deg) rotate(-60deg);
+}
+#thunderstorm5 {
+    left: 0px;
+    top: 700px;
+    transform: rotateY(180deg) rotate(-10deg);
+}
+#thunderstorm6 {
+    right: 0px;
+    height: 600px;
+    width: 800px;
+    top: 1000px;
+    transform: rotate(11deg);
+}
+#thunderstorm7 {
+    right: -50px;
+    top: 700px;
+    transform: rotate(60deg);
+}
+#thunderstorm8 {
+    right: 100px;
+    height: 600px;
+    width: 600px;
+    top: 850px;
+    background-image: url(images/thunder1.png);
+    transform: rotate(-30deg);
+}
+#thunderstorm9 {
+    right: -100px;
+    height: 1000px;
+    width: 1000px;
+    top: 800px;
+    transform: rotate(30deg);
+}
+#thunderstorm0 {
+    height: 600px;
+    width: 600px;
+    right: -100px;
+    top: 815px;
+    transform: rotate(30deg);
+}
+#thunderstorm11 {
+    left: -90px;
+    top: 850px;
+    transform: rotateY(180deg) rotate(60deg);
+}
+
+
+
+
+
+
+.sword {
+    position: fixed;
+    background-size: cover;
+}
+
+.sword1 {
+
+    width: 300px;
+    height: 150px;
+    background-image: url(images/sword1.png);
+}
+.sword2 {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(images/sword2.png);
+}
+.sword3 {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(images/sword3.png);
+}
+
+
+#sword2 {
+    top: 1380px;
+    left: -250px;
+    transform: rotate(30deg);
+}
+#sword4 {
+    top: 1520px;
+    left: -320px;
+    transform: rotate(25deg);
+}
+#sword5 {
+    top: 1850px;
+    left: -220px;
+    transform: rotate(100deg);
+}
+#sword6 {
+    top: 1920px;
+    left: 150px;
+    transform: rotate(-9.5deg);
+}
+#sword1 {
+    top: 1940px;
+    left: 550px;
+    transform: rotate(60deg);
+}
+#sword7 {
+    top: -13em;
+    /*left: 690px;*/
+    width: 555px;
+    height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-64deg);
+}
+#sword3 {
+    top: 1990px;
+    right: 440px;
+    width: 300px;
+    height: 150px;
+    background-image: url(images/sword4.png);
+    transform: rotate(-103deg);
+}
+#sword9 {
+    top: 1920px;
+    right: 100px;
+    transform: rotate(10deg);
+}
+
+#sword11 {
+    top: 1860px;
+    right: -300px;
+    transform: rotate(-120deg);
+}
+#sword10 {
+    top: 1500px;
+    right: -245px;
+    transform: rotate(-130deg);
+}
+#sword8 {
+    top: 1360px;
+    right: -275px;
+    width: 230px;
+    height: 230px;
+    transform: rotate(-30deg);
+}
+
+
+
+
+
+.album {
+    position: fixed;
+    background-size: cover;
+    height: 190px;
+    width: 190px;
+    opacity: 0;
+}
+.album1 {
+    top: 1680px;
+    background-image:
+     url(images/AmonAmarth%20-%20Once%20Sent%20from%20the%20Golden%20Halljpg.jpg);
+    left: 60px;
+
+}
+.album2 {
+    top: 1680px;
+    background-image:
+     url(images/AmonAmarth%20-%20The%20Avenger.jpg);
+    left: 320px;
+}
+.album3 {
+    top: 1680px;
+    background-image:
+     url(images/AmonAmarth%20-%20Versus%20the%20World.jpg);
+    left: 580px;
+}
+.album4 {
+    top: 1440px;
+    background-image:
+     url(images/AmonAmarth%20-%20Fate%20of%20Norns.jpg);
+    left: 60px;
+}
+.album5 {
+    top: 1440px;
+    background-image:
+     url(images/AmonAmarth%20-%20With%20Oden%20on%20Our%20Side.jpg);
+    left: 320px;
+}
+.album6 {
+    top: 1440px;
+    background-image:
+     url(images/AmonAmarth%20-%20Twilight%20of%20the%20Thunder%20God.jpg);
+    left: 580px;
+}
+.album7 {
+    top: 1200px;
+    background-image:
+     url(images/AmonAmarth%20-%20Surtur%20RIsing.jpg);
+    left: 60px;
+}
+.album8 {
+    top: 1200px;
+    background-image:
+     url(images/AmonAmarth%20-%20Deceiver%20of%20the%20Gods.jpg);
+    left: 320px;
+}
+.album9 {
+    top: 1200px;
+    background-image:
+     url(images/AmonAmarth%20-%20Jomsviking.jpg);
+    left: 580px;
+}
+.fadetest {
+  display: flex;
+  opacity: 0;
+}
+
+
+
+#album9h:not(:active) {
+animation: album999 1s 1;
+transform-origin: top right;
+}
+@keyframes album999 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+
+#album8h:not(:active) {
+animation: album888 1s 1;
+transform-origin: top;
+}
+@keyframes album888 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+
+/*#album7h:not(:active) {
+animation: album777 1s 1;
+transform-origin: top left;
+}
+@keyframes album777 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9) rotateX(-60deg) rotateY(30deg);}
+    70%  {transform: scale(1.5);}
+    80%  {transform: scale(0.95) rotateX(-10deg) rotateY(10deg);}
+    100% {transform: scale(1);}
+}*/
+
+/*#album7h:not(:active) {
+animation: album777 1s 1;
+transform-origin: top left;
+}
+@keyframes album777 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.5) rotateX(30deg) rotateY(-30deg);}
+    70%  {transform: scale(1.5) rotateX(20deg);}
+    80%  {transform: scale(0.95) rotateX(10deg) rotateY(-10deg);}
+    100% {transform: scale(1);}
+}*/
+
+#album7h:not(:active) {
+animation: album777 1s 1;
+transform-origin: top left;
+}
+@keyframes album777 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+
+#album6h:not(:active) {
+animation: album666 1s 1;
+transform-origin: right;
+}
+@keyframes album666 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+
+
+#album5h:not(:active) {
+animation: album555 1s 1;
+transform-origin: center;
+}
+@keyframes album555 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+#album4h:not(:active) {
+animation: album444 1s 1;
+transform-origin: left;
+}
+@keyframes album444 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+
+#album3h:not(:active) {
+animation: album333 1s 1;
+transform-origin: bottom right;
+perspective: 1000px;
+}
+
+@keyframes album333 {
+    0%   {transform: scale(1);}
+    35%  {transform: scale(0.9);}
+    70%  {transform: scale(1.3);}
+    80%  {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+
+#album2h:not(:active) {
+animation: album222 1s 1;
+transform-origin: bottom;
+perspective: 1000px;
+}
+
+@keyframes album222 {
+  0%   {transform: scale(1);}
+  35%  {transform: scale(0.9);}
+  70%  {transform: scale(1.3);}
+  80%  {transform: scale(0.95);}
+  100% {transform: scale(1);}
+}
+
+#album1h:not(:active) {
+animation: album111 1s 1;
+transform-origin: bottom left;
+perspective: 1000px;
+}
+
+@keyframes album111 {
+  0%   {transform: scale(1);}
+  35%  {transform: scale(0.9);}
+  70%  {transform: scale(1.3);}
+  80%  {transform: scale(0.95);}
+  100% {transform: scale(1);}
+}
+
+
+/*
+#album5h:not(:active) {
+animation: album555 1.5s 1;
+transform-origin: top left;
+}
+@keyframes album555 {
+    0%   {transform: scale(1);}
+    30%  {transform: scale(0.8) rotate(-15deg);}
+    60%  {transform: scale(1.3) rotate(360deg);}
+    100% {transform: scale(1);}
+}
+#album4h:not(:active) {
+animation: album444 3s 1;
+transform-origin: center;
+}
+@keyframes album444 {
+    0%   {transform: scale(1);}
+    10%  {transform: scale(0.9);}
+    20%  {transform: scale(1.1);}
+    30%  {transform: scale(1);}
+    40%  {transform: scale(1.2);}
+    50%  {transform: scale(1.1);}
+    60%  {transform: scale(1.3);}
+    70%  {transform: scale(1.2);}
+    80%  {transform: scale(1.4);}
+    90%  {transform: scale(0.9);}
+    100% {transform: scale(1);}
+}
+
+#album3h:not(:active) {
+animation: album333 1.5s 1;
+transform-origin: top right;
+perspective: 1000px;
+}
+
+@keyframes album333 {
+    0%   {transform: rotateX(0deg) rotateY(0deg);}
+    30%  {transform: rotateX(90deg) rotateY(150deg) scale(1);}
+    50%  {transform: rotateX(-10deg) rotateY(-10deg) scale(1);}
+    80%  {transform: rotateX(2deg) rotateY(2deg) scale(1);}
+    100% {transform: rotateX(0deg) scale(1);}
+}
+
+#album2h:not(:active) {
+animation: album222 1.5s 1;
+transform-origin: bottom left;
+perspective: 1000px;
+}
+
+@keyframes album222 {
+    0%   {transform: rotateX(0deg) rotateY(0deg);}
+    30%  {transform: rotateX(90deg) rotateY(150deg) scale(1);}
+    50%  {transform: rotateX(-10deg) rotateY(-10deg) scale(1);}
+    80%  {transform: rotateX(2deg) rotateY(2deg) scale(1);}
+    100% {transform: rotateX(0deg) scale(1);}
+}
+
+#album1h:not(:active) {
+animation: album111 1.5s 1;
+transform-origin: bottom left;
+perspective: 1000px;
+}
+
+@keyframes album111 {
+    0%   {transform: rotateX(0deg) rotateY(0deg) scale(1);}
+    20%  {transform: rotateX(0deg) rotateY(0deg) scale(1.5);}
+    30%  {transform: rotateX(0deg) rotateY(0deg) scale(0.7);}
+    60%  {transform: rotateX(0deg) rotateY(0deg) scale(1.1);}
+    100% {transform: rotateX(0deg) scale(1);}
+}*/
+
+
+.songs-container {
+  position: fixed;
+  background-size: cover;
+  height: 689px;
+  width: 702px;
+  top: 1205px;
+  right: 60px;
+  opacity: 0;
+  /*background-color: white;*/
+  background-image: url(images/skull3.png);
+  background-size: contain;
+  color: #dbdbdb;
+  border-radius: 5%;
+  transition: text-shadow 0.6s, color 0.4s,
+   background-color 1.5s;
+
+}
+.songs-container:hover {
+
+    color: white;
+    text-shadow: 0px 0px 10px rgba(5, 5, 5, 1),
+    0px 0px 10px black,
+    0px 0px 10px black,
+    0px 0px 10px black;
+}
+
+#songs-container:active {
+    background-color: #22232b;
+}
+
+.songs-list {
+    list-style-type: none;
+    width: 60%;
+    height: 30%;
+    margin: 50px auto 0 auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.songs-container ul {
+    opacity: 0;
+    display: none;
+}
+
+.album-song-lyrics {
+    position: fixed;
+    height: 705px;
+    width: 775px;
+    top: 1180px;
+    background-color: black;
+    left: 30px;
+    display: none;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    overflow: scroll;
+}
+
+.album-song-lyrics p {
+    opacity: 0;
+    display: none;
+}
+#close-lyrics {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 1250px;
+    background-color: red;
+    left: 700px;
+    display: none;
+    opacity: 0;
+
+}
+#lyrics-title {
+    height: 50px;
+    width: 100px;
+    position: fixed;
+    top: 1250px;
+    background-color: red;
+    left: 300px;
+
+}
